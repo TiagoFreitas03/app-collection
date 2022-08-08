@@ -1,14 +1,14 @@
 <h1 align="center">App Collection</h1>
 
-Este repositório contém diversas aplicações desenvolvidas com base nas aplicações propostas no repositório [app-ideas](https://github.com/florinpop17/app-ideas)
+Coleção de aplicações desenvolvidas com base nas propostas do repositório [app-ideas](https://github.com/florinpop17/app-ideas)
 
-<br>
 
 ## 💻 Aplicações
 
-| Nome                              | Descrição                                 |
-| --------------------------------- | ----------------------------------------- |
-| [Bin2Dec](./bin-2-dec/README.md)  | Conversor de número binário para decimal  |
+| Nome                                                            | Descrição                                                       |
+| --------------------------------------------------------------- | --------------------------------------------------------------- |
+| [Bin2Dec](./bin-2-dec/README.md)                                | Conversor de número binário para decimal                        |
+| [Border Radius Previewer](./border-radius-previewer/README.md)  | Aplicação para visualizar como border-radius afeta um elemento  |
 
 
 ## 🚀 Como executar

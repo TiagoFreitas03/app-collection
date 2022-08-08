@@ -9,6 +9,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | --------------------------------------------------------------- | --------------------------------------------------------------- |
 | [Bin2Dec](./bin-2-dec/README.md)                                | Conversor de número binário para decimal                        |
 | [Border Radius Previewer](./border-radius-previewer/README.md)  | Aplicação para visualizar como border-radius afeta um elemento  |
+| [Calculator](./calculator/README.md)                            | Calculadora para operações simples                              |
 
 
 ## 🚀 Como executar

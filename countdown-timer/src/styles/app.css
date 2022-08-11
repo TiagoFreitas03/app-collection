@@ -1,0 +1,108 @@
+.app-container {
+	display: flex;
+}
+
+main {
+	width: 55%;
+	height: 100vh;
+	padding: 24px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	margin-bottom: 16px;
+}
+
+input, label {
+	display: block;
+}
+
+input {
+	border: 1px solid var(--dark-gray);
+	border-radius: 4px;
+	padding: 12px 8px;
+	width: 100%;
+	margin: 8px 0;
+	font-size: 16px;
+}
+
+.input-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 16px;
+	margin-top: 16px;
+}
+
+form button {
+	width: 100%;
+	margin-top: 20px;
+	padding: 12px;
+	border-radius: 4px;
+	border: none;
+	background-color: var(--dark-red);
+	font-size: 20px;
+	color: var(--white);
+	cursor: pointer;
+	transition: all .15s;
+}
+
+form button:hover {
+	background-color: var(--light-red);
+}
+
+aside {
+	height: 100vh;
+	overflow-y: auto;
+	width: 45%;
+	min-width: 480px;
+	background-color: var(--light-gray);
+	padding: 24px;
+}
+
+aside .event {
+	border: 2px solid var(--dark-gray);
+	border-radius: 4px;
+	padding: 12px;
+	margin: 12px 0;
+	background-color: var(--white);
+	display: flex;
+	justify-content: space-between;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 30px;
+}
+
+aside button {
+	display: block;
+	border: none;
+	background-color: var(--light-red);
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: var(--white);
+	cursor: pointer;
+}
+
+.event-title {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.countdown {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 8px;
+	margin-top: 20px;
+}
+
+.countdown span {
+	text-align: center;
+	width: 80px;
+}
+
+.countdown span h3 {
+	border-bottom: 4px solid var(--dark-red);
+	margin-bottom: 4px;
+}

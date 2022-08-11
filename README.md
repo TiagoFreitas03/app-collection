@@ -12,6 +12,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | [Calculator](./calculator/README.md)                            | Calculadora para operações simples                              |
 | [Cause Effect App](./cause-effect/README.md)                    | Lista de nomes para clicar e exibir dados detalhados            |
 | [Countdown Timer](./countdown-timer/README.md)                  | Timer com contagem regressiva até um evento                     |
+| [CSV 2 JSON](./csv-2-json/README.md)                            | Conversor de texto CSV para JSON                                |
 
 
 ## 🚀 Como executar

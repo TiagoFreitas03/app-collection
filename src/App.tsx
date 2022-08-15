@@ -6,6 +6,7 @@ import { Calculator } from './apps/Calculator'
 import { CauseEffect } from './apps/CauseEffect'
 import { CountdownTimer } from './apps/CountdownTimer'
 import { Csv2Json } from './apps/Csv2Json'
+import { DollarsToCents } from './apps/DollarsToCents'
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 			<Link to='/cause-effect'>Cause Effect</Link>
 			<Link to='/countdown-timer'>Countdown Timer</Link>
 			<Link to='/csv-2-json'>CSV 2 JSON</Link>
+			<Link to='/dollars-to-cents'>Dollars To Cents</Link>
 		</div>
 	)
 }
@@ -31,6 +33,7 @@ export function App() {
 				<Route path='/cause-effect' element={<CauseEffect />} />
 				<Route path='/countdown-timer' element={<CountdownTimer />} />
 				<Route path='/csv-2-json' element={<Csv2Json/>} />
+				<Route path='/dollars-to-cents' element={<DollarsToCents/>} />				
 			</Routes>
 		</BrowserRouter>
 	)

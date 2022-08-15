@@ -13,6 +13,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | Cause Effect App        | Lista de nomes para clicar e exibir dados detalhados            |
 | Countdown Timer         | Timer com contagem regressiva até um evento                     |
 | CSV 2 JSON              | Conversor de texto CSV para JSON                                |
+| Dollars To Cents        | Conversor de dólares para centavos                              |
 
 
 ## 🚀 Como executar

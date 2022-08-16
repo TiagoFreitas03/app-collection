@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 
-import { Input } from '../components/BorderRadiusPreviewerInput'
+import { Input } from './Input'
 
 export function BorderRadiusPreviewer() {
 	const [topLeft, setTopLeft] = useState(0)

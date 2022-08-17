@@ -14,6 +14,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | Countdown Timer         | Timer com contagem regressiva até um evento                     |
 | CSV 2 JSON              | Conversor de texto CSV para JSON                                |
 | Dollars To Cents        | Conversor de dólares para centavos                              |
+| Dynamic CSS Variables   | Alteração dinâmica de propriedades do CSS                       |
 | First Database App      | Aplicação usando o banco de dados do navegador, IndexedDB       |
 | JSON 2 CSV              | Conversor de texto JSON para CSV                                |
 

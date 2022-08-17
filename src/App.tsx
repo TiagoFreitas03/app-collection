@@ -7,6 +7,7 @@ import { CauseEffect } from './apps/CauseEffect'
 import { CountdownTimer } from './apps/CountdownTimer'
 import { Csv2Json } from './apps/Csv2Json'
 import { DollarsToCents } from './apps/DollarsToCents'
+import { DynamicCSSVariables } from './apps/DynamicCSSVariables'
 import { FirstDatabaseApp } from './apps/FirstDatabaseApp'
 import { Json2Csv } from './apps/Json2Csv'
 
@@ -20,6 +21,7 @@ const Home = () => {
 			<Link to='/countdown-timer'>Countdown Timer</Link>
 			<Link to='/csv-2-json'>CSV 2 JSON</Link>
 			<Link to='/dollars-to-cents'>Dollars To Cents</Link>
+			<Link to='/dynamic-css-var'>Dynamic CSS Variables</Link>
 			<Link to='/first-db-app'>First DB App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 		</div>
@@ -38,6 +40,7 @@ export function App() {
 				<Route path='/countdown-timer' element={<CountdownTimer />} />
 				<Route path='/csv-2-json' element={<Csv2Json />} />
 				<Route path='/dollars-to-cents' element={<DollarsToCents />} />
+				<Route path='/dynamic-css-var' element={<DynamicCSSVariables />} />
 				<Route path='/first-db-app' element={<FirstDatabaseApp />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 			</Routes>

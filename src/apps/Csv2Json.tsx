@@ -1,5 +1,7 @@
 import { useState, FormEvent, ChangeEvent } from 'react'
 
+import { saveFile } from '../utils/saveFile'
+
 interface IObject {
 	[key: string]: string
 }
@@ -50,8 +52,6 @@ export function Csv2Json() {
 	}
 
 	function handleFileSelect(event: ChangeEvent<HTMLInputElement>) {
-		console.log('ok')
-
 		if (event.target.files) {
 			const files = Array.from(event.target.files)
 			const reader = new FileReader()
@@ -65,6 +65,13 @@ export function Csv2Json() {
 
 			reader.readAsText(files[0])
 		}
+
+		event.target.value = ''
+	}
+
+	function clearFields() {
+		setContent('')
+		setOutput([])
 	}
 
 	return (
@@ -80,7 +87,7 @@ export function Csv2Json() {
 					<textarea
 						className="block w-full my-4 rounded py-3 px-2 text-gray-900"
 						value={content}
-						onChange={e => setContent(e.target.value)} rows={14}
+						onChange={e => setContent(e.target.value)} rows={12}
 						spellCheck={false}
 					/>
 
@@ -92,24 +99,38 @@ export function Csv2Json() {
 						accept='.csv'
 						className="hidden w-full my-1"
 					/>
+
 					<label
 						className="block text-center w-full p-3 my-2 rounded text-xl bg-gray-700 cursor-pointer"
 						htmlFor="csvFile"
 					>Abrir CSV</label>
 
 					<button
-						type="submit"
-						className="text-center w-full p-3 my-2 rounded text-xl bg-gray-600"
-					>Converter</button>
+						type="button"
+						className="w-full p-3 my-2 rounded text-xl bg-gray-600"
+						onClick={clearFields}
+					>Limpar</button>
+
+					<button type="submit" className="w-full p-3 my-2 rounded text-xl bg-gray-500">
+						Converter
+					</button>
 				</form>
 			</div>
 
 			<div className="w-[50%] h-screen p-6 overflow-y-auto">
 				<h1 className="mb-4 text-4xl">JSON</h1>
 
-				<div className="bg-gray-600 rounded p-4 h-[82vh] overflow-y-auto text-sm">
+				<div className="bg-gray-600 rounded p-4 h-[76vh] overflow-y-auto text-sm">
 					<pre>{JSON.stringify(output, null, 2)}</pre>
 				</div>
+
+				<button
+					className="text-center w-full p-3 my-2 rounded text-xl bg-gray-700"
+					onClick={() => {
+						if (output.length > 0)
+							saveFile(JSON.stringify(output, null, 2), 'json')
+					}}
+				>Salvar</button>
 			</div>
 		</div>
 	)

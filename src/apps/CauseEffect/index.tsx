@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { people } from '../assets/people'
+import { people } from './people'
 
 export function CauseEffect() {
 	const [selectedIndex, setSelectedIndex] = useState(0)

@@ -10,6 +10,7 @@ import { DollarsToCents } from './apps/DollarsToCents'
 import { DynamicCSSVariables } from './apps/DynamicCSSVariables'
 import { FirstDatabaseApp } from './apps/FirstDatabaseApp'
 import { Json2Csv } from './apps/Json2Csv'
+import { FlipImage } from './apps/FlipImage'
 
 const Home = () => {
 	return (
@@ -23,6 +24,7 @@ const Home = () => {
 			<Link to='/dollars-to-cents'>Dollars To Cents</Link>
 			<Link to='/dynamic-css-var'>Dynamic CSS Variables</Link>
 			<Link to='/first-db-app'>First DB App</Link>
+			<Link to='/flip-image'>Flip Image</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 		</div>
 	)
@@ -42,6 +44,7 @@ export function App() {
 				<Route path='/dollars-to-cents' element={<DollarsToCents />} />
 				<Route path='/dynamic-css-var' element={<DynamicCSSVariables />} />
 				<Route path='/first-db-app' element={<FirstDatabaseApp />} />
+				<Route path='/flip-image' element={<FlipImage />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 			</Routes>
 		</BrowserRouter>

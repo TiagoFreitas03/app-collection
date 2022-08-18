@@ -12,6 +12,7 @@ import { FirstDatabaseApp } from './apps/FirstDatabaseApp'
 import { FlipImage } from './apps/FlipImage'
 import { GithubStatus } from './apps/GithubStatus'
 import { Json2Csv } from './apps/Json2Csv'
+import { WordFrequency } from './apps/WordFrequency'
 
 const Home = () => {
 	return (
@@ -28,6 +29,7 @@ const Home = () => {
 			<Link to='/flip-image'>Flip Image</Link>
 			<Link to='/github-status'>GitHub Status</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
+			<Link to='/word-frequency'>Word Frequency</Link>
 		</div>
 	)
 }
@@ -49,6 +51,7 @@ export function App() {
 				<Route path='/flip-image' element={<FlipImage />} />
 				<Route path='/github-status' element={<GithubStatus />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
+				<Route path='/word-frequency' element={<WordFrequency />} />
 			</Routes>
 		</BrowserRouter>
 	)

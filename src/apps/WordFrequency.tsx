@@ -14,8 +14,8 @@ export function WordFrequency() {
 		if (text === '')
 			return alert('Texto vazio')
 
-		const words = text.split(' ').map(word => word.replace(/\W/g, '').toLowerCase())
-			.filter(word => word !== '').sort()
+		const words = text.replace(/[^a-z0-9áãâàäéêèëíìîïóõôöúùüû]/gi, ' ').split(' ')
+			.map(word => word.toLocaleLowerCase()).filter(word => word !== '').sort()
 
 		const aux = [{ word: words[0], count: 1 }]
 
@@ -85,10 +85,14 @@ export function WordFrequency() {
 							data={frequency.slice(0, 10)}
 							barSize={720 / frequency.length - 60}
 						>
-							<XAxis dataKey="word" scale="point" padding={{ left: 30, right: 10 }} />
+							<XAxis
+								dataKey="word"
+								scale="point"
+								padding={{ left: 720 / frequency.length - 60, right: 720 / frequency.length - 60 }}
+							/>
 							<YAxis />
 							<Legend />
-							<Bar dataKey="count" fill="#8D8D99" />
+							<Bar dataKey="count" fill="#8D8D99" name='Frequência das palavras' />
 						</BarChart>
 					</div>
 				</>

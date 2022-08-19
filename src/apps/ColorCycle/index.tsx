@@ -86,7 +86,7 @@ export function ColorCycle() {
 			{
 				started &&
 				<div
-					className="flex w-[72px] h-[72px] transition-colors"
+					className="flex mx-auto w-[360px] h-[360px] transition-colors"
 					style={{ backgroundColor: `#${red}${green}${blue}` }}
 				/>
 			}

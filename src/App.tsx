@@ -5,6 +5,7 @@ import { BorderRadiusPreviewer } from './apps/BorderRadiusPreviewer'
 import { Calculator } from './apps/Calculator'
 import { CauseEffect } from './apps/CauseEffect'
 import { ChristmasLights } from './apps/ChristmasLights'
+import { ColorCycle } from './apps/ColorCycle'
 import { CountdownTimer } from './apps/CountdownTimer'
 import { Csv2Json } from './apps/Csv2Json'
 import { DollarsToCents } from './apps/DollarsToCents'
@@ -23,6 +24,7 @@ const Home = () => {
 			<Link to='/calculator'>Calculator</Link>
 			<Link to='/cause-effect'>Cause Effect</Link>
 			<Link to='/christmas-lights'>Christmas Lights</Link>
+			<Link to='/color-cycle'>Color Cycle</Link>
 			<Link to='/countdown-timer'>Countdown Timer</Link>
 			<Link to='/csv-2-json'>CSV 2 JSON</Link>
 			<Link to='/dollars-to-cents'>Dollars To Cents</Link>
@@ -46,6 +48,7 @@ export function App() {
 				<Route path='/calculator' element={<Calculator />} />
 				<Route path='/cause-effect' element={<CauseEffect />} />
 				<Route path='/christmas-lights' element={<ChristmasLights />} />
+				<Route path='/color-cycle' element={<ColorCycle />} />
 				<Route path='/countdown-timer' element={<CountdownTimer />} />
 				<Route path='/csv-2-json' element={<Csv2Json />} />
 				<Route path='/dollars-to-cents' element={<DollarsToCents />} />

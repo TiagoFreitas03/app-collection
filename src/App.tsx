@@ -13,6 +13,7 @@ import { DynamicCSSVariables } from './apps/DynamicCSSVariables'
 import { FirstDatabaseApp } from './apps/FirstDatabaseApp'
 import { FlipImage } from './apps/FlipImage'
 import { GithubStatus } from './apps/GithubStatus'
+import { Hello } from './apps/Hello'
 import { Json2Csv } from './apps/Json2Csv'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
 import { WordFrequency } from './apps/WordFrequency'
@@ -33,6 +34,7 @@ const Home = () => {
 			<Link to='/first-db-app'>First DB App</Link>
 			<Link to='/flip-image'>Flip Image</Link>
 			<Link to='/github-status'>GitHub Status</Link>
+			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
 			<Link to='/word-frequency'>Word Frequency</Link>
@@ -58,6 +60,7 @@ export function App() {
 				<Route path='/first-db-app' element={<FirstDatabaseApp />} />
 				<Route path='/flip-image' element={<FlipImage />} />
 				<Route path='/github-status' element={<GithubStatus />} />
+				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />
 				<Route path='/word-frequency' element={<WordFrequency />} />

@@ -20,6 +20,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | First Database App      | Utilização do banco de dados do navegador, IndexedDB                |
 | Flip Image              | Aplicação para inverter uma imagem horizontalmente e verticalmente  |
 | GitHub Status           | Aplicação para consumir API do GitHub e obter o status dos serviços |
+| Hello                   | Exibe uma mensagem de saudação no idioma nativo do usuário          |
 | JSON 2 CSV              | Conversor de texto JSON para CSV                                    |
 | Random Number Generator | Gerador de número aleatório dentro de um intervalo                  |
 | Word Frequency          | Contador da quantidade de cada palavra em um texto                  |

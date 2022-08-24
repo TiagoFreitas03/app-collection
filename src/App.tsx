@@ -17,6 +17,7 @@ import { Hello } from './apps/Hello'
 import { IOTMailboxSimulator } from './apps/IOTMailboxSimulator'
 import { Json2Csv } from './apps/Json2Csv'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
+import { Weather } from './apps/Weather'
 import { WindChill } from './apps/WindChill'
 import { WordFrequency } from './apps/WordFrequency'
 
@@ -40,6 +41,7 @@ const Home = () => {
 			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
+			<Link to='/weather'>Weather</Link>
 			<Link to='/wind-chill'>Wind Chill</Link>
 			<Link to='/word-frequency'>Word Frequency</Link>
 		</div>
@@ -68,6 +70,7 @@ export function App() {
 				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />
+				<Route path='/weather' element={<Weather />} />
 				<Route path='/wind-chill' element={<WindChill />} />
 				<Route path='/word-frequency' element={<WordFrequency />} />
 			</Routes>

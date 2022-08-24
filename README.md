@@ -24,6 +24,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | IOT Mailbox Simulator   | Utilização de callbacks para checar snail mail                      |
 | JSON 2 CSV              | Conversor de texto JSON para CSV                                    |
 | Random Number Generator | Gerador de número aleatório dentro de um intervalo                  |
+| Vigenere Cipher         | Criptografar e decifrar mensagens usando a cifra de Vigenère        |
 | Weather App             | Aplicação para exibir informações sobre o clima em uma cidade       |
 | Wind Chill              | Calculadora do índice de resfriamento a partir da temperatura       |
 | Word Frequency          | Contador da quantidade de cada palavra em um texto                  |

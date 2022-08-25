@@ -17,6 +17,7 @@ import { Hello } from './apps/Hello'
 import { IOTMailboxSimulator } from './apps/IOTMailboxSimulator'
 import { Json2Csv } from './apps/Json2Csv'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
+import { Stopwatch } from './apps/Stopwatch'
 import { TrueOrFalse } from './apps/TrueOrFalse'
 import { VigenereCipher } from './apps/VigenereCipher'
 import { Weather } from './apps/Weather'
@@ -43,6 +44,7 @@ const Home = () => {
 			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
+			<Link to='/stopwatch'>Stopwatch</Link>
 			<Link to='/true-or-false'>True or False</Link>
 			<Link to='/vigenere-cipher'>Vigenere Cipher</Link>
 			<Link to='/weather'>Weather</Link>
@@ -74,6 +76,7 @@ export function App() {
 				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />
+				<Route path='/stopwatch' element={<Stopwatch />} />
 				<Route path='/true-or-false' element={<TrueOrFalse />} />
 				<Route path='/vigenere-cipher' element={<VigenereCipher />} />
 				<Route path='/weather' element={<Weather />} />

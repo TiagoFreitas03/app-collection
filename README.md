@@ -24,6 +24,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | IOT Mailbox Simulator   | Utilização de callbacks para checar snail mail                      |
 | JSON 2 CSV              | Conversor de texto JSON para CSV                                    |
 | Random Number Generator | Gerador de número aleatório dentro de um intervalo                  |
+| Roman To Decimal        | Conversor de número romano para número decimal                      |
 | Slider Design           | Design de carousel/slider com imagens                               |
 | Stopwatch               | Cronômetro para ajudar a contar tempo gasto em atividades           |
 | True or False           | Aplicação para comparar dois textos digitados pelo usuário          |

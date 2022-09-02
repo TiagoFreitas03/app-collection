@@ -15,6 +15,7 @@ import { FlipImage } from './apps/FlipImage'
 import { GithubStatus } from './apps/GithubStatus'
 import { Hello } from './apps/Hello'
 import { IOTMailboxSimulator } from './apps/IOTMailboxSimulator'
+import { JsInputValidation } from './apps/JsInputValidation'
 import { Json2Csv } from './apps/Json2Csv'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
 import { RomanToDecimal } from './apps/RomanToDecimal'
@@ -43,6 +44,7 @@ const Home = () => {
 			<Link to='/flip-image'>Flip Image</Link>
 			<Link to='/github-status'>GitHub Status</Link>
 			<Link to='/iot-mailbox-simulator'>IOT Mailbox Simulator</Link>
+			<Link to='/js-input-validation'>JS Input Validation</Link>
 			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
@@ -77,6 +79,7 @@ export function App() {
 				<Route path='/flip-image' element={<FlipImage />} />
 				<Route path='/github-status' element={<GithubStatus />} />
 				<Route path='/iot-mailbox-simulator' element={<IOTMailboxSimulator />} />
+				<Route path='/js-input-validation' element={<JsInputValidation />} />
 				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />

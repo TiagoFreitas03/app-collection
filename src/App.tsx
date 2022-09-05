@@ -18,6 +18,7 @@ import { IOTMailboxSimulator } from './apps/IOTMailboxSimulator'
 import { JsInputValidation } from './apps/JsInputValidation'
 import { Json2Csv } from './apps/Json2Csv'
 import { KeyValue } from './apps/KeyValue'
+import { LoremIpsumGenerator } from './apps/LoremIpsumGenerator'
 import { RandomMealGenerator } from './apps/RandomMealGenerator'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
 import { Recipe } from './apps/Recipe'
@@ -51,6 +52,7 @@ const Home = () => {
 			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
 			<Link to='/key-value'>Key Value</Link>
+			<Link to='/lorem-ipsum-generator'>Lorem Ipsum Generator</Link>
 			<Link to='/random-meal-generator'>Random Meal Generator</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
 			<Link to='/recipe'>Recipe</Link>
@@ -89,6 +91,7 @@ export function App() {
 				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/key-value' element={<KeyValue />} />
+				<Route path='/lorem-ipsum-generator' element={<LoremIpsumGenerator />} />
 				<Route path='/random-meal-generator' element={<RandomMealGenerator />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />
 				<Route path='/recipe' element={<Recipe />} />

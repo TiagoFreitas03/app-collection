@@ -17,7 +17,9 @@ import { Hello } from './apps/Hello'
 import { IOTMailboxSimulator } from './apps/IOTMailboxSimulator'
 import { JsInputValidation } from './apps/JsInputValidation'
 import { Json2Csv } from './apps/Json2Csv'
+import { KeyValue } from './apps/KeyValue'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
+import { Recipe } from './apps/Recipe'
 import { RomanToDecimal } from './apps/RomanToDecimal'
 import { SliderDesign } from './apps/SliderDesign'
 import { Stopwatch } from './apps/Stopwatch'
@@ -47,7 +49,9 @@ const Home = () => {
 			<Link to='/js-input-validation'>JS Input Validation</Link>
 			<Link to='/hello'>Hello App</Link>
 			<Link to='/json-2-csv'>JSON 2 CSV</Link>
+			<Link to='/key-value'>Key Value</Link>
 			<Link to='/random-number'>Random Number Generator</Link>
+			<Link to='/recipe'>Recipe</Link>
 			<Link to='/roman-to-decimal'>Roman to Decimal</Link>
 			<Link to='/slider-design'>Slider Design</Link>
 			<Link to='/stopwatch'>Stopwatch</Link>
@@ -82,7 +86,9 @@ export function App() {
 				<Route path='/js-input-validation' element={<JsInputValidation />} />
 				<Route path='/hello' element={<Hello />} />
 				<Route path='/json-2-csv' element={<Json2Csv />} />
+				<Route path='/key-value' element={<KeyValue />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />
+				<Route path='/recipe' element={<Recipe />} />
 				<Route path='/roman-to-decimal' element={<RomanToDecimal />} />
 				<Route path='/slider-design' element={<SliderDesign />} />
 				<Route path='/stopwatch' element={<Stopwatch />} />

@@ -24,7 +24,9 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | IOT Mailbox Simulator       | Utilização de callbacks para checar snail mail                      |
 | JavaScript Input Validation | Validação do conteúdo de inputs utilizando expressões regulares     |
 | JSON 2 CSV                  | Conversor de texto JSON para CSV                                    |
+| Key Value                   | Capturar eventos do teclado e exibir informações sobre a tecla      |
 | Random Number Generator     | Gerador de número aleatório dentro de um intervalo                  |
+| Recipe                      | Livro de receitas com nomes, ingredientes e modo de preparo         |
 | Roman To Decimal            | Conversor de número romano para número decimal                      |
 | Slider Design               | Design de carousel/slider com imagens                               |
 | Stopwatch                   | Cronômetro para ajudar a contar tempo gasto em atividades           |

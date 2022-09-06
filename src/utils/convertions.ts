@@ -6,7 +6,6 @@ export function dateToString(d: Date) {
 	return [year, (month).padStart(2, '0'), day.padStart(2, '0')].join('-')
 }
 
-
 export function datetimeToString(d: Date) {
 	const [year, month, day] = [d.getFullYear(), d.getMonth(), d.getDate()]
 	const [hours, minutes, seconds] = [d.getHours(), d.getMinutes(), d.getSeconds()]
@@ -32,4 +31,14 @@ export function stringToDate(date: string, time?: string) {
 		})
 
 	return new Date(year, month - 1, day, hours, minutes, seconds)
+}
+
+export function formatMs(time: number) {
+	const ms = Math.floor((time % 1000) / 10),
+		s = (Math.floor((time / 1000) % 60)),
+		m = Math.floor((time / (60000)) % 60)
+
+	const format = (x: number) => x.toString().padStart(2, '0')
+
+	return [format(m), format(s), format(ms)].join(':')
 }

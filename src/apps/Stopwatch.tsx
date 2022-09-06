@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import { formatMs } from '../utils/convertions'
+
 export function Stopwatch() {
 	const [time, setTime] = useState(0)
 	const [lastLap, setLastLap] = useState(0)
@@ -30,16 +32,6 @@ export function Stopwatch() {
 		setRunning(false)
 		setLaps([])
 		setLastLap(0)
-	}
-
-	function formatMs(time: number) {
-		const ms = Math.floor((time % 1000) / 10),
-			s = (Math.floor((time / 1000) % 60)),
-			m = Math.floor((time / (60000)) % 60)
-
-		const format = (x: number) => x.toString().padStart(2, '0')
-
-		return [format(m), format(s), format(ms)].join(':')
 	}
 
 	return (

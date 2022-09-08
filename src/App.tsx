@@ -34,6 +34,7 @@ import { VigenereCipher } from './apps/VigenereCipher'
 import { Weather } from './apps/Weather'
 import { WindChill } from './apps/WindChill'
 import { WordFrequency } from './apps/WordFrequency'
+import { ProductLandingPage } from './apps/ProductLandingPage'
 
 export function App() {
 	return (
@@ -60,6 +61,7 @@ export function App() {
 				<Route path='/key-value' element={<KeyValue />} />
 				<Route path='/lorem-ipsum-generator' element={<LoremIpsumGenerator />} />
 				<Route path='/notes' element={<Notes />} />
+				<Route path='/product-landing-page' element={<ProductLandingPage />} />
 				<Route path='/quiz' element={<Quiz />} />
 				<Route path='/random-meal-generator' element={<RandomMealGenerator />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />

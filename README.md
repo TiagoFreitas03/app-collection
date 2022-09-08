@@ -26,6 +26,8 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | JSON 2 CSV                  | Conversor de texto JSON para CSV                                    |
 | Key Value                   | Capturar eventos do teclado e exibir informações sobre a tecla      |
 | Lorem Ipsum Generator       | Gerador de Lorem Ipsum                                              |
+| Notes                       | Aplicação para criar, editar e excluir notas de texto               |
+| Quiz                        | Quiz com perguntas básicas sobre HTML, CSS e JavaScript             |
 | Random Meal Generator       | Gerador de refeição aleatória usando a API do TheMealDB             |
 | Random Number Generator     | Gerador de número aleatório dentro de um intervalo                  |
 | Recipe                      | Livro de receitas com nomes, ingredientes e modo de preparo         |

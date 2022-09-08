@@ -21,6 +21,7 @@ import { JsInputValidation } from './apps/JsInputValidation'
 import { Json2Csv } from './apps/Json2Csv'
 import { KeyValue } from './apps/KeyValue'
 import { LoremIpsumGenerator } from './apps/LoremIpsumGenerator'
+import { Notes } from './apps/Notes'
 import { Quiz } from './apps/Quiz'
 import { RandomMealGenerator } from './apps/RandomMealGenerator'
 import { RandomNumberGenerator } from './apps/RandomNumberGenerator'
@@ -58,6 +59,7 @@ export function App() {
 				<Route path='/json-2-csv' element={<Json2Csv />} />
 				<Route path='/key-value' element={<KeyValue />} />
 				<Route path='/lorem-ipsum-generator' element={<LoremIpsumGenerator />} />
+				<Route path='/notes' element={<Notes />} />
 				<Route path='/quiz' element={<Quiz />} />
 				<Route path='/random-meal-generator' element={<RandomMealGenerator />} />
 				<Route path='/random-number' element={<RandomNumberGenerator />} />

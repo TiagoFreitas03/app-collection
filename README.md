@@ -27,6 +27,7 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | Key Value                   | Capturar eventos do teclado e exibir informações sobre a tecla      |
 | Lorem Ipsum Generator       | Gerador de Lorem Ipsum                                              |
 | Notes                       | Aplicação para criar, editar e excluir notas de texto               |
+| Pearson Regression          | Calculadora de coeficiente de correlação para duas amostras         |
 | Product Landing Page        | Landing Page de um produto, com informações e imagens               |
 | Quiz                        | Quiz com perguntas básicas sobre HTML, CSS e JavaScript             |
 | Random Meal Generator       | Gerador de refeição aleatória usando a API do TheMealDB             |

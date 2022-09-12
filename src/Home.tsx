@@ -1,43 +1,55 @@
 import { Link } from 'react-router-dom'
 
+const apps = [
+	{ url: '/bin-2-dec', name: 'Bin 2 Dec' },
+	{ url: '/border-radius-previewer', name: 'Border Radius Previewer' },
+	{ url: '/calculator', name: 'Calculator' },
+	{ url: '/cause-effect', name: 'Cause Effect' },
+	{ url: '/christmas-lights', name: 'Christmas Lights' },
+	{ url: '/color-cycle', name: 'Color Cycle' },
+	{ url: '/countdown-timer', name: 'Countdown Timer' },
+	{ url: '/csv-2-json', name: 'CSV 2 JSON' },
+	{ url: '/dollars-to-cents', name: 'Dollars To Cents' },
+	{ url: '/dynamic-css-var', name: 'Dynamic CSS Variables' },
+	{ url: '/first-db-app', name: 'First DB App' },
+	{ url: '/flip-image', name: 'Flip Image' },
+	{ url: '/github-status', name: 'GitHub Status' },
+	{ url: '/iot-mailbox-simulator', name: 'IOT Mailbox Simulator' },
+	{ url: '/js-input-validation', name: 'JS Input Validation' },
+	{ url: '/hello', name: 'Hello App' },
+	{ url: '/json-2-csv', name: 'JSON 2 CSV' },
+	{ url: '/key-value', name: 'Key Value' },
+	{ url: '/lorem-ipsum-generator', name: 'Lorem Ipsum Generator' },
+	{ url: '/notes', name: 'Notes' },
+	{ url: '/pearson-regression', name: 'Pearson Regression' },
+	{ url: '/pomodoro-clock', name: 'Pomodoro Clock' },
+	{ url: '/product-landing-page', name: 'Product Landing Page' },
+	{ url: '/quiz', name: 'Quiz' },
+	{ url: '/random-meal-generator', name: 'Random Meal Generator' },
+	{ url: '/random-number', name: 'Random Number Generator' },
+	{ url: '/recipe', name: 'Recipe' },
+	{ url: '/roman-to-decimal', name: 'Roman to Decimal' },
+	{ url: '/slider-design', name: 'Slider Design' },
+	{ url: '/stopwatch', name: 'Stopwatch' },
+	{ url: '/true-or-false', name: 'True or False' },
+	{ url: '/vigenere-cipher', name: 'Vigenere Cipher' },
+	{ url: '/weather', name: 'Weather' },
+	{ url: '/wind-chill', name: 'Wind Chill' },
+	{ url: '/word-frequency', name: 'Word Frequency' },
+]
+
 export function Home() {
 	return (
-		<div>
-			<Link to='/bin-2-dec'>Bin 2 Dec</Link>
-			<Link to='/border-radius-previewer'>Border Radius Previewer</Link>
-			<Link to='/calculator'>Calculator</Link>
-			<Link to='/cause-effect'>Cause Effect</Link>
-			<Link to='/christmas-lights'>Christmas Lights</Link>
-			<Link to='/color-cycle'>Color Cycle</Link>
-			<Link to='/countdown-timer'>Countdown Timer</Link>
-			<Link to='/csv-2-json'>CSV 2 JSON</Link>
-			<Link to='/dollars-to-cents'>Dollars To Cents</Link>
-			<Link to='/dynamic-css-var'>Dynamic CSS Variables</Link>
-			<Link to='/first-db-app'>First DB App</Link>
-			<Link to='/flip-image'>Flip Image</Link>
-			<Link to='/github-status'>GitHub Status</Link>
-			<Link to='/iot-mailbox-simulator'>IOT Mailbox Simulator</Link>
-			<Link to='/js-input-validation'>JS Input Validation</Link>
-			<Link to='/hello'>Hello App</Link>
-			<Link to='/json-2-csv'>JSON 2 CSV</Link>
-			<Link to='/key-value'>Key Value</Link>
-			<Link to='/lorem-ipsum-generator'>Lorem Ipsum Generator</Link>
-			<Link to='/notes'>Notes</Link>
-			<Link to='/pearson-regression'>Pearson Regression</Link>
-			<Link to='/pomodoro-clock'>Pomodoro Clock</Link>
-			<Link to='/product-landing-page'>Product Landing Page</Link>
-			<Link to='/quiz'>Quiz</Link>
-			<Link to='/random-meal-generator'>Random Meal Generator</Link>
-			<Link to='/random-number'>Random Number Generator</Link>
-			<Link to='/recipe'>Recipe</Link>
-			<Link to='/roman-to-decimal'>Roman to Decimal</Link>
-			<Link to='/slider-design'>Slider Design</Link>
-			<Link to='/stopwatch'>Stopwatch</Link>
-			<Link to='/true-or-false'>True or False</Link>
-			<Link to='/vigenere-cipher'>Vigenere Cipher</Link>
-			<Link to='/weather'>Weather</Link>
-			<Link to='/wind-chill'>Wind Chill</Link>
-			<Link to='/word-frequency'>Word Frequency</Link>
+		<div className='max-w-md mx-auto px-3'>
+			<h1 className='text-4xl my-4'>Lista de apps</h1>
+
+			{apps.map(app => {
+				return (
+					<Link to={app.url} key={app.url} className='border p-3 my-3 rounded'>
+						{app.name}
+					</Link>
+				)
+			})}
 		</div>
 	)
 }

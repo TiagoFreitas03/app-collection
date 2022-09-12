@@ -24,6 +24,7 @@ export function Home() {
 			<Link to='/lorem-ipsum-generator'>Lorem Ipsum Generator</Link>
 			<Link to='/notes'>Notes</Link>
 			<Link to='/pearson-regression'>Pearson Regression</Link>
+			<Link to='/pomodoro-clock'>Pomodoro Clock</Link>
 			<Link to='/product-landing-page'>Product Landing Page</Link>
 			<Link to='/quiz'>Quiz</Link>
 			<Link to='/random-meal-generator'>Random Meal Generator</Link>

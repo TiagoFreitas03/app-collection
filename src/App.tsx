@@ -23,6 +23,7 @@ import { KeyValue } from './apps/KeyValue'
 import { LoremIpsumGenerator } from './apps/LoremIpsumGenerator'
 import { Notes } from './apps/Notes'
 import { PearsonRegression } from './apps/PearsonRegression'
+import { PomodoroClock } from './apps/PomodoroClock'
 import { ProductLandingPage } from './apps/ProductLandingPage'
 import { Quiz } from './apps/Quiz'
 import { RandomMealGenerator } from './apps/RandomMealGenerator'
@@ -63,6 +64,7 @@ export function App() {
 				<Route path='/lorem-ipsum-generator' element={<LoremIpsumGenerator />} />
 				<Route path='/notes' element={<Notes />} />
 				<Route path='/pearson-regression' element={<PearsonRegression />} />
+				<Route path='/pomodoro-clock' element={<PomodoroClock />} />
 				<Route path='/product-landing-page' element={<ProductLandingPage />} />
 				<Route path='/quiz' element={<Quiz />} />
 				<Route path='/random-meal-generator' element={<RandomMealGenerator />} />

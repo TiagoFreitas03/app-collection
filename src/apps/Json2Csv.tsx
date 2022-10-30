@@ -10,18 +10,17 @@ export function Json2Csv() {
 		event.preventDefault()
 
 		if (content !== '')
-			convertJsonToCsv(content)
-		else {
+			convertJsonToCsv()
+		else
 			return alert('Informe o conteúdo JSON')
-		}
 	}
 
-	function convertJsonToCsv(text: string) {
+	function convertJsonToCsv() {
 		try {
 			const json = JSON.parse(content)
 
-			if (json.length < 1)
-				return alert('A quantidade mínima de objetos é 1')
+			if (!json.length)
+				return alert('O conteúdo JSON deve ser um array')
 
 			const fields = Object.keys(json[0])
 			const rows: string[][] = [fields]
@@ -98,13 +97,17 @@ export function Json2Csv() {
 					<label
 						className="block text-center w-full p-3 my-2 rounded text-xl bg-gray-700 cursor-pointer"
 						htmlFor="jsonFile"
-					>Abrir JSON</label>
+					>
+						Abrir JSON
+					</label>
 
 					<button
 						type="button"
 						className="w-full p-3 my-2 rounded text-xl bg-gray-600"
 						onClick={clearFields}
-					>Limpar</button>
+					>
+						Limpar
+					</button>
 
 					<button type="submit" className="w-full p-3 my-2 rounded text-xl bg-gray-500">
 						Converter

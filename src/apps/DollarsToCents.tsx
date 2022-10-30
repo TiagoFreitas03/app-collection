@@ -6,13 +6,13 @@ export function DollarsToCents() {
 	const cents = Number((dollars * 100).toFixed(2))
 	const quarters = Math.floor(cents / 25)
 	const dimes = Math.floor((cents % 25) / 10)
-	const nickels = Math.floor((cents % 10) / 5)
-	const pennies = cents % 5
+	const nickels = Math.floor(((cents % 25) % 10) / 5)
+	const pennies = Math.floor((((cents % 25) % 10) % 5))
 
 	function handleValueChange(e: ChangeEvent<HTMLInputElement>) {
 		let { value } = e.target
 
-		if (value.length >= 15 || isNaN(Number(value)))
+		if (value.length >= 15 || isNaN(Number(value)) || Number(value) < 0)
 			return
 
 		setDollars(Number(value))

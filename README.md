@@ -10,37 +10,22 @@ Coleção de aplicações desenvolvidas com base nas propostas do repositório [
 | Bin 2 Dec                   | Conversor de número binário para decimal                                 |
 | Border Radius Previewer     | Aplicação para visualizar como border-radius afeta um elemento           |
 | Calculator                  | Calculadora para operações simples                                       |
-| Cause Effect                | Lista de nomes para clicar e exibir dados detalhados                     |
 | Christmas Lights            | Aplicação com sequência de circulos simulando luzes de Natal             |
-| Color Cycle                 | Aplicação que alterna as cores de um elemento de forma incremental       |
 | Countdown Timer             | Timer com contagem regressiva até um evento                              |
 | CSV 2 JSON                  | Conversor de texto CSV para JSON                                         |
 | Dollars To Cents            | Conversor de dólares para centavos                                       |
-| Dynamic CSS Variables       | Alteração dinâmica de propriedades do CSS                                |
-| First Database App          | Utilização do banco de dados do navegador, IndexedDB                     |
 | Flip Image                  | Aplicação para inverter uma imagem horizontalmente e verticalmente       |
-| GitHub Status               | Aplicação para consumir API do GitHub e obter o status dos serviços      |
-| Hello                       | Exibe uma mensagem de saudação no idioma nativo do usuário               |
-| IOT Mailbox Simulator       | Utilização de callbacks para checar snail mail                           |
-| JavaScript Input Validation | Validação do conteúdo de inputs utilizando expressões regulares          |
 | JSON 2 CSV                  | Conversor de texto JSON para CSV                                         |
-| Key Value                   | Capturar eventos do teclado e exibir informações sobre a tecla           |
-| Lorem Ipsum Generator       | Gerador de Lorem Ipsum                                                   |
 | Notes                       | Aplicação para criar, editar e excluir notas de texto                    |
 | Pearson Regression          | Calculadora de coeficiente de correlação para duas amostras              |
 | Pomodoro Clock              | Timer com técnica de Pomodoro, para gerenciamento do tempo em atividades |
 | Product Landing Page        | Landing Page de um produto, com informações e imagens                    |
-| Quiz                        | Quiz com perguntas básicas sobre HTML, CSS e JavaScript                  |
 | Random Meal Generator       | Gerador de refeição aleatória usando a API do TheMealDB                  |
 | Random Number Generator     | Gerador de número aleatório dentro de um intervalo                       |
-| Recipe                      | Livro de receitas com nomes, ingredientes e modo de preparo              |
 | Roman To Decimal            | Conversor de número romano para número decimal                           |
 | Slider Design               | Design de carousel/slider com imagens                                    |
 | Stopwatch                   | Cronômetro para ajudar a contar tempo gasto em atividades                |
-| True or False               | Aplicação para comparar dois textos digitados pelo usuário               |
 | Vigenere Cipher             | Criptografar e decifrar mensagens usando a cifra de Vigenère             |
-| Weather App                 | Aplicação para exibir informações sobre o clima em uma cidade            |
-| Wind Chill                  | Calculadora do índice de resfriamento a partir da temperatura            |
 | Word Frequency              | Contador da quantidade de cada palavra em um texto                       |
 
 
